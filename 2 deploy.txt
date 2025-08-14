@@ -1,0 +1,52 @@
+﻿2025-08-14T07:51:42.5678657Z Current runner version: '2.327.1'
+2025-08-14T07:51:42.5705370Z ##[group]Operating System
+2025-08-14T07:51:42.5706210Z Ubuntu
+2025-08-14T07:51:42.5706698Z 24.04.2
+2025-08-14T07:51:42.5707122Z LTS
+2025-08-14T07:51:42.5707676Z ##[endgroup]
+2025-08-14T07:51:42.5708195Z ##[group]Runner Image
+2025-08-14T07:51:42.5708771Z Image: ubuntu-24.04
+2025-08-14T07:51:42.5709394Z Version: 20250810.1.0
+2025-08-14T07:51:42.5710398Z Included Software: https://github.com/actions/runner-images/blob/ubuntu24/20250810.1/images/ubuntu/Ubuntu2404-Readme.md
+2025-08-14T07:51:42.5711701Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu24%2F20250810.1
+2025-08-14T07:51:42.5712643Z ##[endgroup]
+2025-08-14T07:51:42.5713147Z ##[group]Runner Image Provisioner
+2025-08-14T07:51:42.5713716Z 2.0.449.1
+2025-08-14T07:51:42.5714227Z ##[endgroup]
+2025-08-14T07:51:42.5715585Z ##[group]GITHUB_TOKEN Permissions
+2025-08-14T07:51:42.5717791Z Contents: read
+2025-08-14T07:51:42.5718451Z Metadata: read
+2025-08-14T07:51:42.5719119Z Pages: write
+2025-08-14T07:51:42.5719733Z ##[endgroup]
+2025-08-14T07:51:42.5721793Z Secret source: Actions
+2025-08-14T07:51:42.5722828Z Prepare workflow directory
+2025-08-14T07:51:42.6067348Z Prepare all required actions
+2025-08-14T07:51:42.6106181Z Getting action download info
+2025-08-14T07:51:42.9101015Z Download action repository 'actions/deploy-pages@v4' (SHA:d6db90164ac5ed86f2b6aed7e0febac5b3c0c03e)
+2025-08-14T07:51:43.4832174Z Complete job name: deploy
+2025-08-14T07:51:43.5603760Z ##[group]Run actions/deploy-pages@v4
+2025-08-14T07:51:43.5605012Z with:
+2025-08-14T07:51:43.5605651Z   token: ***
+2025-08-14T07:51:43.5606015Z   timeout: 600000
+2025-08-14T07:51:43.5606454Z   error_count: 10
+2025-08-14T07:51:43.5606989Z   reporting_interval: 5000
+2025-08-14T07:51:43.5607433Z   artifact_name: github-pages
+2025-08-14T07:51:43.5607865Z   preview: false
+2025-08-14T07:51:43.5608575Z ##[endgroup]
+2025-08-14T07:51:44.0754133Z Fetching artifact metadata for "github-pages" in this workflow run
+2025-08-14T07:51:44.1859077Z Found 1 artifact(s)
+2025-08-14T07:51:44.1909301Z Creating Pages deployment with payload:
+2025-08-14T07:51:44.1910492Z {
+2025-08-14T07:51:44.1911225Z 	"artifact_id": 3762641438,
+2025-08-14T07:51:44.1912531Z 	"pages_build_version": "1e1d418eba09ced7679416694644b59f1d2d17b4",
+2025-08-14T07:51:44.2018029Z 	"oidc_token": "***"
+2025-08-14T07:51:44.2019387Z }
+2025-08-14T07:51:44.4544725Z Created deployment for 1e1d418eba09ced7679416694644b59f1d2d17b4, ID: 1e1d418eba09ced7679416694644b59f1d2d17b4
+2025-08-14T07:51:49.4561237Z Getting Pages deployment status...
+2025-08-14T07:51:49.6234219Z Current status: deployment_queued
+2025-08-14T07:51:51.1055675Z Canceling Pages deployment...
+2025-08-14T07:51:51.3776888Z Canceled deployment with ID 1e1d418eba09ced7679416694644b59f1d2d17b4
+2025-08-14T07:51:51.4055620Z ##[error]The operation was canceled.
+2025-08-14T07:51:51.4123514Z Evaluate and set environment url
+2025-08-14T07:51:51.4128240Z Evaluated environment url: https://trad-alrowais.github.io/my_arabic_blog/
+2025-08-14T07:51:51.4129204Z Cleaning up orphan processes
